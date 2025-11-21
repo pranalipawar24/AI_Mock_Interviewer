@@ -1,0 +1,53 @@
+Here are the exact commands to upload multiple files to your GitHub repository from your local machine 👇
+(Works for Windows CMD, PowerShell, or VS Code terminal)
+
+✅ 1. Navigate to your project folder
+cd path/to/your/project
+
+Example:
+cd F:\Projects\AI_Mock_Interviewer
+
+
+✅ 2. Initialize Git (only once)
+git init
+
+
+✅ 3. Add your GitHub repo as remote
+Copy the HTTPS link from your GitHub repo
+(e.g., https://github.com/pranalipawar24/AI_Mock_Interviewer.git)
+git remote add origin https://github.com/pranalipawar24/AI_Mock_Interviewer.git
+
+If remote already exists:
+git remote remove origin
+git remote add origin https://github.com/pranalipawar24/AI_Mock_Interviewer.git
+
+
+🔥 4. Add ALL FILES (multiple files at once)
+git add .
+
+or add selected files:
+git add file1.py file2.py foldername/
+
+
+📝 5. Commit the files
+git commit -m "Added project files"
+
+
+🚀 6. Push to GitHub
+If it’s a new repo (empty GitHub repo):
+git branch -M main
+git push -u origin main
+
+If repo already has commits:
+git push origin main
+
+
+🎉 You're Done!
+Your multiple files will now be uploaded to GitHub.
+
+If you want, I can also:
+✔ Upload your entire Real-Time Competitor Tracker project
+✔ Generate a README.md
+✔ Set up .gitignore
+✔ Create branches or GitHub actions
+Just tell me!
