@@ -33,6 +33,54 @@ git add file1.py file2.py foldername/
 git commit -m "Added project files"
 
 
+
+
+
+
+
+
+🔄 Update Existing Repository – Commands
+✅ 1. Check what changed
+git status
+
+
+This shows modified / added / deleted files.
+
+✅ 2. Add your updated files
+
+Add ALL updated files:
+
+git add .
+
+
+Or add specific files:
+
+git add filename.py
+git add foldername/
+
+✅ 3. Commit the changes
+git commit -m "Updated project files"
+
+
+Use a meaningful commit message if you want:
+
+git commit -m "Fixed bugs, improved scraper, added new API"
+
+✅ 4. Push updates to GitHub
+git push origin main
+
+🚀 That’s it! Your updated changes will appear on GitHub immediately.
+⚠️ If Git asks for pull first:
+
+Sometimes GitHub has new changes. Then run:
+
+git pull origin main
+git add .
+git commit -m "Updated changes"
+git push origin main
+
+
+
 🚀 6. Push to GitHub
 If it’s a new repo (empty GitHub repo):
 git branch -M main
